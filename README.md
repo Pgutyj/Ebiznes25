@@ -18,9 +18,9 @@ Zadanie 2 Play Scala
 
 Zadanie 1 Tytuł
 
-✅ 3.0 wymaganie 1 Link do commita 1
+✅ 3.0 wymaganie 1 [Link do commita 1](https://github.com/Pgutyj/Ebiznes25/tree/8dbf2d01e875fe80e542c2d629dbc8d550c43ffd)
 
-✅ 3.5 wymaganie 2 Link do commita2
+✅ 3.5 wymaganie 2 [Link do commita 2](https://github.com/Pgutyj/Ebiznes25/tree/8dbf2d01e875fe80e542c2d629dbc8d550c43ffd)
 
 ❌ 4.0 wymaganie 3 Link do commita 3
 
