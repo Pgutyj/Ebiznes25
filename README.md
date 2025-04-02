@@ -12,11 +12,9 @@ Zadanie 1 Docker
 
 ❌ 5.0 wymaganie 5 Link do commita 5
 
-Kod: (folder lub branch)
+Kod: folder Zadanie 1
 
 Zadanie 2 Play Scala
-
-Zadanie 1 Tytuł
 
 ✅ 3.0 wymaganie 1 [Link do commita 1](https://github.com/Pgutyj/Ebiznes25/tree/8dbf2d01e875fe80e542c2d629dbc8d550c43ffd)
 
@@ -28,4 +26,4 @@ Zadanie 1 Tytuł
 
 ❌ 5.0 wymaganie 5 Link do commita 5
 
-Kod: (folder lub branch)
+Kod: Folder Zadanie 2/play-scala-seed
