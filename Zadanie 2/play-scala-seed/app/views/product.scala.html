@@ -1,0 +1,53 @@
+@(product_list: List[Products.Product])
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Page</title>
+</head>
+<body>
+    <a href="@routes.ProductController.addProduct()">
+        Dodaj Nowy Produkt
+    </a>
+    <table>
+        <thead>
+            <tr>
+                <th>Nazwa</th>
+                <th>Cena</th>
+                <th>Kraj Pochodzenia</th>
+                <th>Waga</th>
+                <th>Kategoria</th>
+                <th>
+                    Akcje
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @for( prod <- product_list) {
+            <tr>
+                <td>@prod.id</td>
+                <td>@prod.name</td>
+                <td>@prod.cena</td>
+                <td>@prod.kraj_pochodzenia</td>
+                <td>@prod.waga @prod.jednostka</td>
+                <td>@prod.kategoria</td>
+                <td>
+                    <a href="@routes.ProductController.showProduct(prod.id)">
+                        Zobacz szczegóły
+                    </a>
+                    <a href="@routes.ProductController.deleteProduct(prod.id)">
+                        Usuń
+                    </a>
+                    <a href="@routes.ProductController.updateProduct(prod.id)">
+                        Zaktualizuj
+                    </a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+  
+</body>
+</html>

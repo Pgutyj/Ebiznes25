@@ -1,0 +1,9 @@
+@(product: Option[Products.Product])
+
+@product.map { prod =>
+<form action="@routes.ProductController.deleteProduct(prod.id)" method="post">
+    <button type="submit" value="deletep">
+        Usuń produkt
+    </button>
+</form>
+}

@@ -1,0 +1,27 @@
+{
+  "products" : [ {
+    "id" : 2,
+    "name" : "Chleb",
+    "cena" : 12,
+    "kraj_pochodzenia" : "Polska",
+    "waga" : 112,
+    "jednostka" : "Kg",
+    "kategoria" : "Pieczywo"
+  }, {
+    "id" : 3,
+    "name" : "Jajka",
+    "cena" : 4,
+    "kraj_pochodzenia" : "Polska",
+    "waga" : 400,
+    "jednostka" : "g",
+    "kategoria" : "Nabiał"
+  }, {
+    "id" : 4,
+    "name" : "Lody",
+    "cena" : 99,
+    "kraj_pochodzenia" : "Norwegia",
+    "waga" : 330,
+    "jednostka" : "ml",
+    "kategoria" : "Lody"
+  } ]
+}

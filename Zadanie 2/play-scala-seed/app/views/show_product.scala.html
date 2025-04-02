@@ -1,0 +1,41 @@
+@(product: Option[Products.Product])
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Show Product</title>
+</head>
+<body>
+    <table>
+        @product.map { prod =>
+        <thead>
+            <tr>
+                <th>Nazwa</th>
+                <th>Cena</th>
+                <th>Kraj Pochodzenia</th>
+                <th>Waga</th>
+                <th>Kategoria</th>
+                <th>
+                    Akcje
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@prod.id</td>
+                <td>@prod.name</td>
+                <td>@prod.cena</td>
+                <td>@prod.kraj_pochodzenia</td>
+                <td>@prod.waga @prod.jednostka</td>
+                <td>@prod.kategoria</td>
+            </tr>
+    
+        </tbody>
+    }.getOrElse {
+        <p>Produkt nie został znaleziony.</p>
+    }
+    </table>
+  
+</body>
+</html>
